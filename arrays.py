@@ -23,3 +23,13 @@ def sum13(list):
 print sum13([1, 2, 2, 1]) # expect 6
 print sum13([1, 1]) # expect 2
 print sum13([1, 2, 2, 1, 13]) # expect 6
+
+def sameFirstLast(list):
+	array = 0
+	for i in list:
+		if len > 1:
+			return True
+
+	return array
+
+print sameFirstLast([1,2,5])
